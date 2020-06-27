@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: blue;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px !important;
+    height: 640px;
+}
+
+.inputtext {
+    margin-top: 0px;
+    width: 350px;
+    padding: 25px;
+    height: 10px !important;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-width: 0;
+    text-align: right !important;
+}
+
+button,
+.empty {
+    background-color: yellowgreen;
+    padding: 20px;
+    margin: 5px !important;
+    border-width: 0;
+    float: left;
+    outline: none;
+    text-transform: none;
+    border: none;
+    font-weight: bolder;
+}
+
+.lastbtn {
+    width: 80px;
+    font-size: 30px;
+    font-weight: bolder;
+    outline: none;
+}
+
+.lastbtnequal {
+    width: 80px;
+    background-color: whitesmoke;
+    font-size: 30px;
+    outline: none;
+    font-weight: bolder;
+}
+
+.upbtn {
+    width: 80px;
+    font-size: 30px;
+    outline: none;
+}
+
+.butn {
+    width: 80px;
+    font-size: 30px;
+    outline: none;
+}
+
+button:nth-child() {
+    font-size: 30px;
+    background-color: royalblue;
+}
+
